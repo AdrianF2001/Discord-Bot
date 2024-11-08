@@ -1,7 +1,8 @@
 <details>
   <summary>**V0.1.2**</summary>
-- Kacken Command hinzugefügt
-- Schnauze!
+  
+  - Kacken Command hinzugefügt
+  - Schnauze!
 </details>
 
 ## V0.1.1
