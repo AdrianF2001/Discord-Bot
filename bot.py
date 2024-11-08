@@ -1,10 +1,14 @@
+import os
 import discord
 from discord import app_commands
+from dotenv import load_dotenv
 from events.on_message import on_message_event
 from events.on_ready import on_ready_event
 from commands import load_commands
 
-TOKEN = 'MTMwNDQ0MDY0MTgxMTY0ODU2Mg.GWCPEC.aXJPgOe9-n53OFg7L-ymOFYkpd1zKMTnXM2HHg'
+load_dotenv()
+
+TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD_ID = 1304441601711542343
 
 intents = discord.Intents.default()
