@@ -1,5 +1,5 @@
 <details>
-  <summary>**V0.1.2**</summary>
+  <summary><h1>V0.1.2</h1></summary>
   
   - Kacken Command hinzugefügt
   - Schnauze!
