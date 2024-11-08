@@ -1,6 +1,8 @@
-## V0.1.2
+<details>
+  <summary>## V0.1.2</summary>summary>
 - Kacken Command hinzugefügt
 - Schnauze!
+</details>
 
 ## V0.1.1
 - Kleiner Bug-Fix
