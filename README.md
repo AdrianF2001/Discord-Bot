@@ -1,5 +1,5 @@
 <details>
-  <summary>## V0.1.2</summary>summary>
+  <summary>## V0.1.2</summary>
 - Kacken Command hinzugefügt
 - Schnauze!
 </details>
