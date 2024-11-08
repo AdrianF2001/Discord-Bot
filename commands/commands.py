@@ -1,9 +1,9 @@
 import discord
 
 async def first_command(interaction):
-    await interaction.response.send_message("Hello!")
+    await interaction.response.send_message("https://github.com/AdrianF2001/Discord-Bot")
 
-def add_command(tree, guild_id):
+def add_command(client, tree, guild_id):
     @tree.command(
         name="version",
         description="Version des Bots",
