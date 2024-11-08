@@ -2,7 +2,7 @@
 
 ## V0.1.2
 <details>
-  <summary><h1>Changes</h1></summary>
+  <summary><b>Changes</b></summary>
   
   - Kacken Command hinzugefügt
   - Schnauze!
@@ -10,14 +10,14 @@
 
 ## V0.1.1
 <details>
-  <summary><h1>Changes</h1></summary>
+  <summary><b>Changes</b></summary>
   
   - Kleiner Bug-Fix
 </details>
 
 ## V0.1
 <details>
-  <summary><h1>Changes</h1></summary>
+  <summary><b>Changes</b></summary>
   
   - Bot läuft
   - Code aufgeräumt
