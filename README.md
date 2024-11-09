@@ -5,6 +5,7 @@
   <summary><b>Changes</b></summary>
   
   - Webhook für Updates hinzugefügt
+  - Kleiner Bug-Fix
 </details>
 
 ## V0.1.3
