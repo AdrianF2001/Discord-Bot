@@ -5,7 +5,6 @@
   <summary><b>Changes</b></summary>
   
   <b>Frontend</b>
-  
   - on_member_online_event hinzugefügt, was eine Nachricht sendet, wenn ein Mitglied on kommt
 
   <b>Backend</b>
