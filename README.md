@@ -20,8 +20,8 @@
   ## V0.1.5.1
   <details>
     <summary><b>Changes</b></summary>
-    <b>Backend</b>
     
+    <b>Backend</b>
     - Code neu organisiert
   </details>
 
@@ -29,12 +29,12 @@
   ## V0.1.5
   <details>
     <summary><b>Changes</b></summary>
-    <b>Frontend</b>
     
+    <b>Frontend</b>
     - Kleiner Bug-Fix, bei dem Schnauze! immer ausgelöst wurde
     - Command /submit_idea hinzugefügt, um Ideen in ein docs zu schreiben
-    <b>Backend</b>
     
+    <b>Backend</b>
     - Utils Folder hinzugefügt
     - command_loader.py erstellt, um Code modularer zu machen
   </details>
@@ -42,8 +42,8 @@
   ## V0.1.4
   <details>
     <summary><b>Changes</b></summary>
-    <b>Frontend</b>
     
+    <b>Frontend</b>
     - Webhook für Updates hinzugefügt
     - Kleiner Bug-Fix
   </details>
@@ -51,8 +51,8 @@
   ## V0.1.3
   <details>
     <summary><b>Changes</b></summary>
-    <b>Backend</b>
     
+    <b>Backend</b>
     - .env hinzugefügt, um Token geheim zu halten
   </details>
   
@@ -60,31 +60,31 @@
   ## V0.1.2
   <details>
     <summary><b>Changes</b></summary>
-    <b>Frontend</b>
     
+    <b>Frontend</b>
     - Kacken Command hinzugefügt
     - Schnauze!
-    <b>Backend</b>
     
+    <b>Backend</b>
     - README formatiert
   </details>
   
   ## V0.1.1
   <details>
     <summary><b>Changes</b></summary>
-    <b>Backend</b>
     
+    <b>Backend</b>
     - Kleiner Bug-Fix
   </details>
   
   ## V0.1
   <details>
     <summary><b>Changes</b></summary>
+    
     <b>Frontend</b>
-    
     - erster Slash-Command hinzugefügt
-    <b>Backend</b>
     
+    <b>Backend</b>
     - Bot läuft
     - Code aufgeräumt
     - README.md aktualisiert
