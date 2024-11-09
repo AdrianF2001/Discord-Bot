@@ -1,5 +1,12 @@
 # Discord-Bot
 
+## V0.1.4
+<details>
+  <summary><b>Changes</b></summary>
+  
+  - Webhook für Updates hinzugefügt
+</details>
+
 ## V0.1.3
 <details>
   <summary><b>Changes</b></summary>
