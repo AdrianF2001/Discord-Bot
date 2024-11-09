@@ -4,7 +4,7 @@ from discord import app_commands
 from dotenv import load_dotenv
 from events.on_message import on_message_event
 from events.on_ready import on_ready_event
-from commands import load_commands
+from utils.command_loader import load_commands
 
 load_dotenv()
 
