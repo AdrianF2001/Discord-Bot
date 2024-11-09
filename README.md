@@ -7,7 +7,7 @@
   - Kleiner Bug-Fix, bei dem Schnauze! immer ausgelöst wurde
   - Command /submit_idea hinzugefügt, um Ideen in ein docs zu schreiben
   - Utils Folder hinzugefügt
-  - command_loader.py erstellt, um Code modularer zu machen.
+  - command_loader.py erstellt, um Code modularer zu machen
 </details>
 
 ## V0.1.4
