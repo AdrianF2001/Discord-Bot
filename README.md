@@ -7,6 +7,8 @@
   - Code neu organisiert
 </details>
 
+## Frühere Änderungen
+
 <details>
   <summary><b>Versionshistorie</b></summary>
   
