@@ -7,12 +7,18 @@ import pickle
 # Anwendungsbereich festlegen
 SCOPES = ['https://www.googleapis.com/auth/documents']
 
+# Aktueller Pfad dieser Datei (google_api.py)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Gehe vom src-Ordner in den übergeordneten Ordner und dann in den config-Ordner
+config_path = os.path.join(current_dir, '..', 'config')
+
 # Funktion zur Authentifizierung mit OAuth 2.0
 def authenticate_with_oauth():
     creds = None
     # Überprüfen, ob vorherige Anmeldedaten vorhanden sind
-    if os.path.exists('token.pickle'):
-        with open('token.pickle', 'rb') as token:
+    if os.path.exists(f'{config_path}/token.pickle'):
+        with open(f'{config_path}/token.pickle', 'rb') as token:
             creds = pickle.load(token)
     # Wenn keine gültigen Anmeldedaten vorhanden sind, Authentifizierungsprozess starten
     if not creds or not creds.valid:
@@ -20,10 +26,10 @@ def authenticate_with_oauth():
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'files/client_secret.json', SCOPES)
+                f'{config_path}/client_secret.json', SCOPES)
             creds = flow.run_local_server(port=0)
         # Speichern der Anmeldedaten für zukünftige Verwendung
-        with open('token.pickle', 'wb') as token:
+        with open(f'{config_path}/token.pickle', 'wb') as token:
             pickle.dump(creds, token)
     return creds
 

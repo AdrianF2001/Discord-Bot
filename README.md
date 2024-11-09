@@ -1,5 +1,12 @@
 # Discord-Bot
 
+## V0.1.5.1
+<details>
+  <summary><b>Changes</b></summary>
+  
+  - Code neu organisiert
+</details>
+
 ## V0.1.5
 <details>
   <summary><b>Changes</b></summary>
