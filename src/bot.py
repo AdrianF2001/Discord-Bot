@@ -10,10 +10,10 @@ load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Test Server
-# GUILD_ID = 1304441601711542343
+GUILD_ID = 1304441601711542343
 
 # Main Server
-GUILD_ID = 1304556112984412252
+# GUILD_ID = 1304556112984412252
 
 intents = discord.Intents.default()
 intents.message_content = True

@@ -1,15 +1,11 @@
 # Discord-Bot
 
-## V0.1.6
+## V0.2.0
 <details>
   <summary><b>Changes</b></summary>
   
-  <b>Frontend</b>
-  - on_member_online_event hinzugefügt, was eine Nachricht sendet, wenn ein Mitglied on kommt
-
-  <b>Backend</b>
-  
-  - Code modularer gemacht
+  Frontend
+  - Chatbot hinzugefügt (/chat). Ist eine richtige KI, antwortet also auf alles.
 </details>
 
 ## Frühere Änderungen
@@ -17,11 +13,23 @@
 <details>
   <summary><b>Versionshistorie</b></summary>
   
+  ## V0.1.6
+  <details>
+    <summary><b>Changes</b></summary>
+    
+    Frontend
+    - on_member_online_event hinzugefügt, was eine Nachricht sendet, wenn ein Mitglied on kommt
+
+    Backend
+    
+    - Code modularer gemacht
+  </details>
+
   ## V0.1.5.1
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Backend</b>
+    Backend
     - Code neu organisiert
   </details>
 
@@ -30,11 +38,11 @@
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Frontend</b>
+    Frontend
     - Kleiner Bug-Fix, bei dem Schnauze! immer ausgelöst wurde
     - Command /submit_idea hinzugefügt, um Ideen in ein docs zu schreiben
     
-    <b>Backend</b>
+    Backend
     - Utils Folder hinzugefügt
     - command_loader.py erstellt, um Code modularer zu machen
   </details>
@@ -43,7 +51,7 @@
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Frontend</b>
+    Frontend
     - Webhook für Updates hinzugefügt
     - Kleiner Bug-Fix
   </details>
@@ -52,7 +60,7 @@
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Backend</b>
+    Backend
     - .env hinzugefügt, um Token geheim zu halten
   </details>
   
@@ -61,11 +69,11 @@
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Frontend</b>
+    Frontend
     - Kacken Command hinzugefügt
     - Schnauze!
     
-    <b>Backend</b>
+    Backend
     - README formatiert
   </details>
   
@@ -73,7 +81,7 @@
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Backend</b>
+    Backend
     - Kleiner Bug-Fix
   </details>
   
@@ -81,10 +89,10 @@
   <details>
     <summary><b>Changes</b></summary>
     
-    <b>Frontend</b>
+    ### Frontend
     - erster Slash-Command hinzugefügt
     
-    <b>Backend</b>
+    ### Backend
     - Bot läuft
     - Code aufgeräumt
     - README.md aktualisiert
