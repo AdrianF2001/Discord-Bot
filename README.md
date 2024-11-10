@@ -1,18 +1,26 @@
 # Discord-Bot
 
-## V0.2.0
+## V0.2.1
 <details>
   <summary><b>Changes</b></summary>
   
   Frontend
-  - Chatbot hinzugefügt (/chat). Ist eine richtige KI, antwortet also auf alles.
+  - system_prompt zum ChatBot hinzugefügt, funktioniert aber nicht so gut
 </details>
 
 ## Frühere Änderungen
 
 <details>
   <summary><b>Versionshistorie</b></summary>
+  ## V0.2.0
+  <details>
+    <summary><b>Changes</b></summary>
   
+    Frontend
+    - Chatbot hinzugefügt (/chat). Ist eine richtige KI, antwortet also auf alles.
+  </details>
+
+
   ## V0.1.6
   <details>
     <summary><b>Changes</b></summary>
