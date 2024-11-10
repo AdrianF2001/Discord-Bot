@@ -10,10 +10,12 @@ load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Test Server
-# GUILD_ID = 1304441601711542343
+TEST_GUILD_ID  = 1304441601711542343
 
 # Main Server
-GUILD_ID = 1304556112984412252
+MAIN_GUILD_ID  = 1304556112984412252
+
+GUILD_IDS = [TEST_GUILD_ID, MAIN_GUILD_ID]
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -23,10 +25,8 @@ intents.presences = True
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-# Events und Befehle importieren und anwenden
-register_events(client, tree, GUILD_ID)
-
-# Slash-Commands laden
-load_commands(client, tree, GUILD_ID)
+for guild_id in GUILD_IDS:
+    register_events(client, tree, guild_id)
+    load_commands(client, tree, guild_id)
 
 client.run(TOKEN)

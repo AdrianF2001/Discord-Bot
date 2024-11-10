@@ -1,17 +1,27 @@
 # Discord-Bot
 
-## V0.2.1
+## V0.2.2
 <details>
   <summary><b>Changes</b></summary>
   
   Frontend
-  - system_prompt zum ChatBot hinzugefügt, funktioniert aber nicht so gut
+  - Text To Image hinzugefügt. Es kann einmal ein Prompt eingegeben werden und optional ein negativ Prompt.
 </details>
+
 
 ## Frühere Änderungen
 
 <details>
   <summary><b>Versionshistorie</b></summary>
+  ## V0.2.1
+  <details>
+    <summary><b>Changes</b></summary>
+    
+    Frontend
+    - system_prompt zum ChatBot hinzugefügt, funktioniert aber nicht so gut
+  </details>
+
+
   ## V0.2.0
   <details>
     <summary><b>Changes</b></summary>
@@ -29,7 +39,6 @@
     - on_member_online_event hinzugefügt, was eine Nachricht sendet, wenn ein Mitglied on kommt
 
     Backend
-    
     - Code modularer gemacht
   </details>
 
