@@ -1,13 +1,9 @@
 from discord import Client
 
-from events.on_ready import on_ready_event
 from events.on_message import on_message_event
 from events.on_member_online import on_member_update_event
 
 def register_events(client: Client, tree, guild_id):
-    @client.event
-    async def on_ready():
-        await on_ready_event(client, tree, guild_id)
 
     @client.event
     async def on_message(message):

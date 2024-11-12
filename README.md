@@ -1,11 +1,16 @@
 # Discord-Bot
 
-## V0.2.2
+## V0.2.3
 <details>
   <summary><b>Changes</b></summary>
   
   Frontend
-  - Text To Image hinzugefügt. Es kann einmal ein Prompt eingegeben werden und optional ein negativ Prompt.
+  - Bot antwortet nun in Channel 'chat-with-bot', es muss kein Command eingegeben werden, damit er antwortet.
+
+  Backend
+  - command_loader.py effizienter gemacht.
+  - Bugs beim Laden der Commands und Events behoben, welcher es verhindert hat, dass neue Commands angezeigt werden.
+  - on_ready.py entfernt
 </details>
 
 
@@ -13,6 +18,15 @@
 
 <details>
   <summary><b>Versionshistorie</b></summary>
+
+  ## V0.2.2
+  <details>
+    <summary><b>Changes</b></summary>
+    
+    Frontend
+    - Text To Image hinzugefügt. Es kann einmal ein Prompt eingegeben werden und optional ein negativ Prompt.
+  </details>
+
   ## V0.2.1
   <details>
     <summary><b>Changes</b></summary>

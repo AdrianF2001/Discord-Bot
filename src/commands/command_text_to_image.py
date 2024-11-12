@@ -11,7 +11,7 @@ async def text_to_image(interaction, pos_prompt, neg_prompt=None):
         # Ausführen des blockierenden API-Aufrufs in einem separaten Thread
         result = await asyncio.to_thread(client.predict,
                                          prompt=pos_prompt,
-                                         negative_prompt=neg_prompt,
+                                         negative_prompt=f'bad quality, low quality, ugly, {neg_prompt}',
                                          seed=0,
                                          randomize_seed=True,
                                          width=1024,

@@ -1,12 +1,7 @@
-from commands.command_bot_version import add_command as add_version_command
-from commands.command_add_idea import add_command as add_submit_idea_command
-from commands.command_kacken import add_command as add_kacken_command
-from commands.command_ai_chat import add_command as add_chat_command
-from commands.command_text_to_image import add_command as add_text_to_image_command
+import importlib
 
 def load_commands(client, tree, guild_id):
-    add_version_command(client, tree, guild_id)
-    add_submit_idea_command(client, tree, guild_id)
-    add_kacken_command(client, tree, guild_id)
-    add_chat_command(client, tree, guild_id)
-    add_text_to_image_command(client, tree, guild_id)
+    commands_list = ['command_bot_version', 'command_add_idea', 'command_kacken', 'command_ai_chat', 'command_text_to_image']
+    for command in commands_list:
+        module = importlib.import_module(f'commands.{command}')
+        module.add_command(client, tree, guild_id)

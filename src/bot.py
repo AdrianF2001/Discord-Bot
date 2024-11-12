@@ -25,8 +25,13 @@ intents.presences = True
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-for guild_id in GUILD_IDS:
-    register_events(client, tree, guild_id)
-    load_commands(client, tree, guild_id)
+@client.event
+async def on_ready():
+    for guild_id in GUILD_IDS:
+        load_commands(client, tree, guild_id)
+        register_events(client, tree, guild_id)
+        await tree.sync(guild=discord.Object(id=guild_id))
+    print(f'We have logged in as {client.user}')
+
 
 client.run(TOKEN)
