@@ -1,16 +1,12 @@
 # Discord-Bot
 
-## V0.2.3
+## V0.2.4
 <details>
   <summary><b>Changes</b></summary>
   
   Frontend
-  - Bot antwortet nun in Channel 'chat-with-bot', es muss kein Command eingegeben werden, damit er antwortet.
-
-  Backend
-  - command_loader.py effizienter gemacht.
-  - Bugs beim Laden der Commands und Events behoben, welcher es verhindert hat, dass neue Commands angezeigt werden.
-  - on_ready.py entfernt
+  - KI-Chat muss jetzt initialisiert werden.
+  - Beim Initialisieren kann ein system_prompt angegeben werden, was den Chat beeinflusst. Komischer Weise hat er Probleme mit Mütter beleidigen, nicht aber mit Dirty-Talk...
 </details>
 
 
@@ -18,6 +14,19 @@
 
 <details>
   <summary><b>Versionshistorie</b></summary>
+
+  ## V0.2.3
+  <details>
+    <summary><b>Changes</b></summary>
+    
+    Frontend
+    - Bot antwortet nun in Channel 'chat-with-bot', es muss kein Command eingegeben werden, damit er antwortet.
+
+    Backend
+    - command_loader.py effizienter gemacht.
+    - Bugs beim Laden der Commands und Events behoben, welcher es verhindert hat, dass neue Commands angezeigt werden.
+    - on_ready.py entfernt
+  </details>
 
   ## V0.2.2
   <details>

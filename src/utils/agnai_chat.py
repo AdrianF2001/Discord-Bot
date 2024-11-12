@@ -7,7 +7,6 @@ load_dotenv()
 
 api_url = "https://api.agnai.chat/v1/chat/completions"
 api_key = os.getenv("AGNAI_KEY")
-
 conversation_contexts = {}
 
 async def chat_with_agnai(user_id, prompt):
@@ -16,7 +15,7 @@ async def chat_with_agnai(user_id, prompt):
     }
 
     if user_id not in conversation_contexts:
-        conversation_contexts[user_id] = [{"role": "system", "content": "You're a friendly human, always willing to help"}]
+        return "Chat nicht initialisiert. Bitte initialisiere zuerst den Chat."
 
     conversation_contexts[user_id].append({"role": "user", "content": prompt})
 
@@ -29,10 +28,8 @@ async def chat_with_agnai(user_id, prompt):
         async with session.post(api_url, headers=headers, json=data) as response:
             if response.status == 200:
                 result = await response.json()
-                assistant_reply = result['choices'][0]['text'].strip()
-
+                assistant_reply = f"<@{user_id}> {result['choices'][0]['text'].strip()}"
                 conversation_contexts[user_id].append({"role": "assistant", "content": assistant_reply})
-
                 return assistant_reply
             else:
                 error_text = await response.text()

@@ -1,4 +1,5 @@
 from utils.agnai_chat import chat_with_agnai
+from commands.command_initiate_agnai_chat import initialized_users
 
 async def on_message_event(client, message):
     if message.author == client.user:
@@ -8,6 +9,9 @@ async def on_message_event(client, message):
         await message.channel.send('Schnauze!')
 
     if message.channel.id == 1305918307282714656 or message.channel.id == 1305921951717392497:
+        if message.author.id not in initialized_users:
+            await message.channel.send("Bitte initialisiere zuerst den Chat mit `/initiate_agnai_chat`.")
+            return
         async with message.channel.typing():
             response_text = await chat_with_agnai(message.author.id, message.content)
 
