@@ -1,12 +1,15 @@
 # Discord-Bot
 
-## V0.2.4
+## V0.2.4.1
 <details>
   <summary><b>Changes</b></summary>
-  
+
   Frontend
-  - KI-Chat muss jetzt initialisiert werden.
-  - Beim Initialisieren kann ein system_prompt angegeben werden, was den Chat beeinflusst. Komischer Weise hat er Probleme mit Mütter beleidigen, nicht aber mit Dirty-Talk...
+  - Command /bot_version gegen /roadmap getauscht
+  - Chat hat jetzt DEUTLICH bessere KI
+  Backend
+  - Discord ids in .env ausgelagert
+  - dotenv_loader erstellt, um Laden der .env Konstanten zu erleichtern
 </details>
 
 
@@ -14,6 +17,15 @@
 
 <details>
   <summary><b>Versionshistorie</b></summary>
+
+  ## V0.2.4
+  <details>
+    <summary><b>Changes</b></summary>
+    
+    Frontend
+    - KI-Chat muss jetzt mit /initiate_agnai_chat im Channel chat-with-bot initialisiert werden.
+    - Beim Initialisieren kann ein system_prompt angegeben werden, was den Chat beeinflusst. Komischer Weise hat er Probleme mit Mütter beleidigen, nicht aber mit Dirty-Talk...
+  </details>
 
   ## V0.2.3
   <details>
