@@ -5,7 +5,7 @@
   <summary><b>Changes</b></summary>
   
   Frontend
-  - KI-Chat muss jetzt initialisiert werden.
+  - KI-Chat muss jetzt mit /initiate_agnai_chat im Channel chat-with-bot initialisiert werden.
   - Beim Initialisieren kann ein system_prompt angegeben werden, was den Chat beeinflusst. Komischer Weise hat er Probleme mit Mütter beleidigen, nicht aber mit Dirty-Talk...
 </details>
 
