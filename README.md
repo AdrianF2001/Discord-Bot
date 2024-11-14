@@ -7,6 +7,7 @@
   Frontend
   - Command /bot_version gegen /roadmap getauscht
   - Chat hat jetzt DEUTLICH bessere KI
+    
   Backend
   - Discord ids in .env ausgelagert
   - dotenv_loader erstellt, um Laden der .env Konstanten zu erleichtern
