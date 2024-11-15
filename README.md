@@ -12,11 +12,11 @@
   - /submit_idea
     - Hier kann eine Idee für die Entwicklung des Bots eingegeben werden, die dann in einem Google Document gespeichert wird.
   - /generate_picture
-   - pos_prompt: Hier wird das angegeben, wie das Bild aussehen soll, z.B. 'photorealistic picture of man with a beer in hand'
-   - neg_prompt: Hier wird angegeben, was nicht vorhanden sein soll, z.B. 'drawn, unrealistic, low quality'
-   - Das Modell ist nicht sonderlich gut, deshalb sehen Bilder gerne etwas kacke aus. Zudem funktioniert es auf englisch am besten.
+    - pos_prompt: Hier wird das angegeben, wie das Bild aussehen soll, z.B. 'photorealistic picture of man with a beer in hand'
+    - neg_prompt: Hier wird angegeben, was nicht vorhanden sein soll, z.B. 'drawn, unrealistic, low quality'
+    - Das Modell ist nicht sonderlich gut, deshalb sehen Bilder gerne etwas kacke aus. Zudem funktioniert es auf englisch am besten.
   - /chat
-   - Chat mit KI, wird aber vermutlich entfernt, da /initiate_agnai_chat deutlich besser ist
+    - Chat mit KI, wird aber vermutlich entfernt, da /initiate_agnai_chat deutlich besser ist
   - /kacken
     - kacken
   - /roadmap
