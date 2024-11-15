@@ -1,5 +1,31 @@
 # Discord-Bot
 
+## Funktionen
+<details>
+  <summary><b>Liste der Funktionen</b></summary>
+
+  /commands
+  - /initiate_agnai_chat
+    - initialisiert den Chat mit einem guten KI-Chat Modell. Hier wird angegeben, wie der Chat auf Nachrichten reagieren soll, wenn also z.B. 'You will constantly curse' angegeben wird, wird der Chat diesen Anforderungen folgen.
+    - Nach dem Initialisieren, kann in dem Channel chat-with-bot mit dem geschrieben werden. Es muss kein Command mehr eingegeben werden.
+    - Der Chat ist bislang nur bis zum Restart des Bots consistent, d.h. dass der Chat nach dem Neustart wieder initialisiert werden muss.
+  - /submit_idea
+    - Hier kann eine Idee für die Entwicklung des Bots eingegeben werden, die dann in einem Google Document gespeichert wird.
+  - /generate_picture
+   - pos_prompt: Hier wird das angegeben, wie das Bild aussehen soll, z.B. 'photorealistic picture of man with a beer in hand'
+   - neg_prompt: Hier wird angegeben, was nicht vorhanden sein soll, z.B. 'drawn, unrealistic, low quality'
+   - Das Modell ist nicht sonderlich gut, deshalb sehen Bilder gerne etwas kacke aus. Zudem funktioniert es auf englisch am besten.
+  - /chat
+   - Chat mit KI, wird aber vermutlich entfernt, da /initiate_agnai_chat deutlich besser ist
+  - /kacken
+    - kacken
+  - /roadmap
+    - Schickt einen Link, der die Roadmap anzeigt. Also was geplant, was in Arbeit und was fertig ist.
+
+  Funktionen
+  - Jede Änderung, die am Bot vorgenommen wird, wird im Channel bot-versionen angezeigt
+</details>
+
 ## V0.2.4.1
 <details>
   <summary><b>Changes</b></summary>
