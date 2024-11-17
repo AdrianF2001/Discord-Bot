@@ -26,17 +26,15 @@
   - Jede Änderung, die am Bot vorgenommen wird, wird im Channel bot-versionen angezeigt
 </details>
 
-## V0.2.4.1
+## V0.2.4.2
 <details>
   <summary><b>Changes</b></summary>
 
   Frontend
-  - Command /bot_version gegen /roadmap getauscht
-  - Chat hat jetzt DEUTLICH bessere KI
+  - Chat und Idee entfernt
     
   Backend
-  - Discord ids in .env ausgelagert
-  - dotenv_loader erstellt, um Laden der .env Konstanten zu erleichtern
+  - dotenv_loader gefixt
 </details>
 
 
@@ -44,6 +42,19 @@
 
 <details>
   <summary><b>Versionshistorie</b></summary>
+
+  ## V0.2.4.1
+  <details>
+    <summary><b>Changes</b></summary>
+
+    Frontend
+    - Command /bot_version gegen /roadmap getauscht
+    - Chat hat jetzt DEUTLICH bessere KI
+      
+    Backend
+    - Discord ids in .env ausgelagert
+    - dotenv_loader erstellt, um Laden der .env Konstanten zu erleichtern
+  </details>
 
   ## V0.2.4
   <details>

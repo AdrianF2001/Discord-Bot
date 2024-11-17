@@ -1,12 +1,9 @@
-import os
 import aiohttp
-from dotenv import load_dotenv
-
-load_dotenv()
+from utils.dotenv_loader import get_env_var
 
 
 api_url = "https://api.agnai.chat/v1/chat/completions"
-api_key = os.getenv("AGNAI_KEY")
+api_key = get_env_var("AGNAI_KEY")
 conversation_contexts = {}
 
 async def chat_with_agnai(user_id, prompt):
